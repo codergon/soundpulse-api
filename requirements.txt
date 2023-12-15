@@ -1,0 +1,12 @@
+# Core dependencies
+sanic==23.6.0
+librosa==0.10.1
+sanic-ext==23.6.0
+sanic-routing==23.6.0
+
+# TensorFlow dependencies
+# Mac-specific TensorFlow version
+tensorflow==2.15.0 ; sys_platform == 'darwin'
+
+# Linux-specific TensorFlow version
+tensorflow-cpu==2.15.0 ; sys_platform == 'linux'

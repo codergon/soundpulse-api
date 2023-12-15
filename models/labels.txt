@@ -1,0 +1,4 @@
+0 Background Noise
+1 Clapping
+2 Speaking
+3 Typing
